@@ -240,7 +240,7 @@ class RecipeImageUploadTests(TestCase):
         tag2 = sample_tag(user=self.user, name='Morgh')
         recipe1.tags.add(tag1)
         recipe2.tags.add(tag2)
-        recipe3 = sample_recipe(user=self.user, title='sibZamini sorkhkarde')
+        recipe3 = sample_recipe(user=self.user, title='sib zamini sorkhkarde')
 
         res = self.client.get(
             RECIPE_URL,
